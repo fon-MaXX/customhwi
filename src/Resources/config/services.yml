@@ -1,5 +1,4 @@
 parameters:
-    my_user_provider.class: CustomizedHwi\HwiBundle\Provider\FOSUBUserProvider
     unstable_user_session: 'unstable_user'
     unstable_user_additional_session: 'unstable_additional'
     user_avatar_type: 'user_avatar'
