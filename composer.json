@@ -1,5 +1,5 @@
 {
-    "name": "customhwi/HwiBundle",
+    "name": "customhwi/hwi-bundle",
     "description": "Customized HwiBundle for Symfony2",
     "keywords": ["customhwi HwiBundle","customhwi"],
     "type": "symfony-bundle",
