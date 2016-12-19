@@ -16,9 +16,8 @@
 },
     "minimum-stability": "dev",
     "autoload": {
-    "psr-0": { "CUSTOMHWI\\HwiBundle": "" }
+    "psr-0": { "Site\\HwiBundle": "" }
 },
-    "target-dir": "CUSTOMHWI/HwiBundle",
     "extra": {
     "branch-alias": {
         "dev-master": "1.0.x-dev"
