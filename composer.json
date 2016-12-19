@@ -1,7 +1,7 @@
 {
-    "name": "customhwi/HwiBundle",
+    "name": "customizedhwi/hwibundle",
     "description": "Customized HwiBundle for Symfony2",
-    "keywords": ["CustomizedHwiBundle"],
+    "keywords": ["customizedhwi/hwibundle"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -16,7 +16,7 @@
 },
     "minimum-stability": "dev",
     "autoload": {
-    "psr-0": { "Site\\HwiBundle": "src/" }
+    "psr-4": { "CustomizedHwi\\HwiBundle\\": "src/" }
 },
     "extra": {
     "branch-alias": {
