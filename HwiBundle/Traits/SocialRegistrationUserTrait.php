@@ -1,5 +1,5 @@
 <?php
-namespace Site\HwiBundle\Traits;
+namespace CustomizedHwi\HwiBundle\Traits;
 trait SocialRegistrationUserTrait{
     /**
      * @ORM\Column(name="facebook_id", type="string", length=255, nullable=true)

@@ -5,7 +5,7 @@
  * Date: 4/28/2016
  * Time: 12:51 PM
  */
-namespace Site\HwiBundle\Events;
+namespace CustomizedHwi\HwiBundle\Events;
 
 use Site\UserBundle\SiteUserBundle;
 use Symfony\Component\HttpFoundation\RedirectResponse;

@@ -5,7 +5,7 @@
  * Date: 4/15/2016
  * Time: 04:05 PM
  */
-namespace Site\HwiBundle\Provider;
+namespace CustomizedHwi\HwiBundle\Provider;
 
 
 use HWI\Bundle\OAuthBundle\OAuth\Response\UserResponseInterface;

@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Site\HwiBundle\Controller;
+namespace customhwi\HwiBundle\Controller;
 
 use HWI\Bundle\OAuthBundle\OAuth\ResourceOwnerInterface;
 use HWI\Bundle\OAuthBundle\Security\Core\Authentication\Token\OAuthToken;

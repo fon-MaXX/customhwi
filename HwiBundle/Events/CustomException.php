@@ -5,7 +5,7 @@
  * Date: 4/28/2016
  * Time: 05:14 PM
  */
-namespace Site\HwiBundle\Events;
+namespace CustomizedHwi\HwiBundle\Events;
 
 
 class CustomException extends \Exception

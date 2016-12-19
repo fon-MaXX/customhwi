@@ -12,7 +12,7 @@
  *
  */
 
-namespace Site\HwiBundle\Entity;
+namespace CustomizedHwi\HwiBundle\Entity;
 
 class AdditionalRegistrationData implements \Serializable
 {

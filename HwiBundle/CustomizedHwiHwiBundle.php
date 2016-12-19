@@ -1,10 +1,10 @@
 <?php
 
-namespace Site\HwiBundle;
+namespace CustomizedHwi\HwiBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class SiteHwiBundle extends Bundle
+class CustomizedHwiHwiBundle extends Bundle
 {
     public function getParent()
     {

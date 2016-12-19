@@ -1,6 +1,6 @@
 <?php
 
-namespace Site\HwiBundle\DependencyInjection;
+namespace CustomizedHwi\HwiBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
