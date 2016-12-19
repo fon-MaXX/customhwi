@@ -13,7 +13,7 @@
     "require": {},
     "minimum-stability": "dev",
     "autoload": {
-    "psr-4": { "CustomizedHwi\\HwiBundle": "" }
+    "psr-4": { "CustomizedHwi\\HwiBundle\\": "" }
 	},
     "extra": {
     "branch-alias": {
