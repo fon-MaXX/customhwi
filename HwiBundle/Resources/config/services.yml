@@ -1,0 +1,26 @@
+parameters:
+    my_user_provider.class: Site\HwiBundle\Provider\FOSUBUserProvider
+    unstable_user_session: 'unstable_user'
+    unstable_user_additional_session: 'unstable_additional'
+    user_avatar_type: 'user_avatar'
+    site_user_action_type: 'fos_user_profile_show'
+services:
+    site_oauth_user_provider:
+        class: "%my_user_provider.class%"
+        arguments:
+          user_manager: "@fos_user.user_manager"
+          properties:
+            facebook: facebook_id
+            google: google_id
+            vkontakte: vk_id
+          container: "@service_container"
+
+    custom.event.auth_register_event:
+        class: Site\HwiBundle\Events\ExceptionListener
+        tags:
+            -
+              name: kernel.event_listener
+              event: kernel.exception
+              method: onKernelException
+        arguments:
+            container: "@service_container"
