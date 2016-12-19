@@ -1,7 +1,7 @@
 {
     "name": "customizedhwi/hwibundle",
     "description": "Customized HwiBundle for Symfony2",
-    "keywords": ["customizedhwi/hwibundle"],
+    "keywords": ["customizedhwi hwibundle"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
