@@ -1,5 +1,5 @@
 {
-    "name": "customhwi/hwibundle",
+    "name": "fon-maxx/customhwi",
     "description": "Customized HwiBundle for Symfony2",
     "keywords": ["customhwi hwibundle"],
     "type": "symfony-bundle",
@@ -13,9 +13,8 @@
     "require": {},
     "minimum-stability": "dev",
     "autoload": {
-    "psr-0": { "Customhwi\\HwiBundle": "" }
+    "psr-0": { "HwiBundle": "" }
 	},
-	"target-dir" : "Customhwi/HwiBundle",
     "extra": {
     "branch-alias": {
         "dev-master": "1.0.x-dev"
