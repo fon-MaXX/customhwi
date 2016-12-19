@@ -1,7 +1,7 @@
 {
-    "name": "fon-maxx/customhwi",
+    "name": "customhwi/HwiBundle",
     "description": "Customized HwiBundle for Symfony2",
-    "keywords": ["fon-maxx customhwi"],
+    "keywords": ["customhwi HwiBundle","customhwi"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -13,7 +13,7 @@
     "require": {},
     "minimum-stability": "dev",
     "autoload": {
-    "psr-0": { "HwiBundle": "" }
+    "psr-0": { "customhwi\\HwiBundle": "" }
 	},
     "extra": {
     "branch-alias": {
