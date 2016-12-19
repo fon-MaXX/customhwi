@@ -24,7 +24,7 @@ class ExceptionListener
     public function onKernelException($event)
     {
         $exception = $event->getException();
-        if($exception instanceof \Site\UserBundle\Events\CustomException){
+        if($exception instanceof \CustomizedHwi\HwiBundle\Events\CustomException){
             $url = $this->container->get('router')->generate(
                 'fos_user_registration_register',
                 array(),

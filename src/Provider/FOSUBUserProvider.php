@@ -19,7 +19,7 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 use CustomizedHwi\HwiBundle\Events\AuthRegisterEvent;
 use CustomizedHwi\HwiBundle\Events\CustomException;
-use CustomizedHwi\BackendBundle\Entity\AdditionalRegistrationData;
+use CustomizedHwi\HwiBundle\Entity\AdditionalRegistrationData;
 
 class FOSUBUserProvider extends BaseClass
 {
