@@ -1,7 +1,7 @@
 {
     "name": "fon-maxx/customhwi",
     "description": "Customized HwiBundle for Symfony2",
-    "keywords": ["customhwi hwibundle"],
+    "keywords": ["fon-maxx customhwi"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
