@@ -1,5 +1,5 @@
 parameters:
-    my_user_provider.class: Site\HwiBundle\Provider\FOSUBUserProvider
+    my_user_provider.class: CustomizedHwi\HwiBundle\Provider\FOSUBUserProvider
     unstable_user_session: 'unstable_user'
     unstable_user_additional_session: 'unstable_additional'
     user_avatar_type: 'user_avatar'
@@ -16,7 +16,7 @@ services:
           container: "@service_container"
 
     custom.event.auth_register_event:
-        class: Site\HwiBundle\Events\ExceptionListener
+        class: CustomizedHwi\HwiBundle\Events\ExceptionListener
         tags:
             -
               name: kernel.event_listener

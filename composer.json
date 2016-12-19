@@ -1,7 +1,7 @@
 {
-    "name": "customizedhwi/hwibundle",
+    "name": "customhwi/HwiBundle",
     "description": "Customized HwiBundle for Symfony2",
-    "keywords": ["customizedhwi hwibundle","customizedhwi"],
+    "keywords": ["CustomizedHwiBundle"],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -10,11 +10,14 @@
             "email": "fonmaggz@gmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "symfony/framework-bundle": "~2.0",
+        "twig/twig":                "~1.5"
+},
     "minimum-stability": "dev",
     "autoload": {
-    "psr-4": { "CustomizedHwi\\HwiBundle": "" }
-	},
+    "psr-0": { "Site\\HwiBundle": "HwiBundle" }
+},
     "extra": {
     "branch-alias": {
         "dev-master": "1.0.x-dev"

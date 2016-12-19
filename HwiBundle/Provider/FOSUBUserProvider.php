@@ -17,9 +17,9 @@ use Symfony\Component\PropertyAccess\PropertyAccess;
 use Symfony\Component\PropertyAccess\PropertyAccessor;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 use Symfony\Component\HttpFoundation\RedirectResponse;
-use Site\HwiBundle\Events\AuthRegisterEvent;
-use Site\HwiBundle\Events\CustomException;
-use Site\BackendBundle\Entity\AdditionalRegistrationData;
+use CustomizedHwi\HwiBundle\Events\AuthRegisterEvent;
+use CustomizedHwi\HwiBundle\Events\CustomException;
+use CustomizedHwi\BackendBundle\Entity\AdditionalRegistrationData;
 
 class FOSUBUserProvider extends BaseClass
 {
