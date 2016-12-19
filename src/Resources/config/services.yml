@@ -6,7 +6,7 @@ parameters:
     site_user_action_type: 'fos_user_profile_show'
 services:
     site_oauth_user_provider:
-        class: "%my_user_provider.class%"
+        class: CustomizedHwi\HwiBundle\Provider\FOSUBUserProvider
         arguments:
           user_manager: "@fos_user.user_manager"
           properties:
