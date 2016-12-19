@@ -16,7 +16,7 @@
 },
     "minimum-stability": "dev",
     "autoload": {
-    "psr-0": { "Site\\HwiBundle": "/HwiBundle" }
+    "psr-0": { "Site\\HwiBundle": "HwiBundle/" }
 },
     "extra": {
     "branch-alias": {
